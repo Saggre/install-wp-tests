@@ -19,8 +19,8 @@
         "test"
     ],
     "homepage": "https://github.com/Saggre/install-wp-tests",
-    "require": {
-        "wp-phpunit/wp-phpunit": "*"
+    "suggest": {
+        "wp-phpunit/wp-phpunit": "Adds IDE autocompletion to the WordPress testsuite"
     },
     "scripts": {
         "install": "bin/install-wp-tests.sh"
