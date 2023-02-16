@@ -7,9 +7,21 @@
         {
             "name": "Sakri Koskimies",
             "email": "sakri.koskimies@hotmail.com"
+        },
+        {
+            "name": "WordPress Community",
+            "homepage": "https://wordpress.org/about/"
         }
     ],
-    "require": {},
+    "keywords": [
+        "wordpress",
+        "phpunit",
+        "test"
+    ],
+    "homepage": "https://github.com/Saggre/install-wp-tests",
+    "require": {
+        "wp-phpunit/wp-phpunit": "*"
+    },
     "scripts": {
         "install": "bin/install-wp-tests.sh"
     },
