@@ -1,0 +1,19 @@
+{
+    "name": "saggre/install-wp-tests",
+    "description": "WordPress tests installer shell script as a Composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sakri Koskimies",
+            "email": "sakri.koskimies@hotmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "install": "bin/install-wp-tests.sh"
+    },
+    "bin": [
+        "bin/install-wp-tests.sh"
+    ]
+}
